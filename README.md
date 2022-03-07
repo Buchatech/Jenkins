@@ -1,6 +1,10 @@
 # Jenkins on Kubernetes Deployment
 Jenkins deployment for Kubernetes with persistent storage.
   <br>
+  <br>
+ NOTE: This deploys a service on port 8080. To access Jenkins i.e. http://IPOFLB:8080
+ <br>
+ <br>
 Get Jekins initialadminpassword from the logs after deployment:
 <br>
 kubectl get pods -n jenkins
