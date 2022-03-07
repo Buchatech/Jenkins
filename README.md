@@ -12,5 +12,5 @@ kubectl get pods -n jenkins
 kubectl logs <pod-name> -n jenkins
 <br>
 <br>
-<img src="https://github.com/Buchatech/Jenkins/blob/main/initial-sign-in-Jenkins.png" alt="initial-sign-in-Jenkins"/>
+<img src="https://github.com/Buchatech/JenkinsForK8swPersistentStorage/blob/main/images/initial-sign-in-Jenkins.png" alt="initial-sign-in-Jenkins"/>
 
