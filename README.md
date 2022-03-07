@@ -5,7 +5,7 @@ Jenkins deployment for Kubernetes with persistent storage.
  NOTE: This deploys a Load Balancer service on port 8080. To access Jenkins i.e. http://IPOFLB:8080
  <br>
  <br>
-Get Jekins initialadminpassword from the logs after deployment:
+Get Jekins <b>initialadminpassword</b> from the logs after deployment:
 <br>
 kubectl get pods -n jenkins
 <br>
