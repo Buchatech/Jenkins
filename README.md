@@ -1,4 +1,4 @@
-# Jenkins Kubernetes Deployment
+# Jenkins on Kubernetes Deployment
 Jenkins deployment for Kubernetes with persistent storage.
   <br>
 Get Jekins initialadminpassword from the logs after deployment:
