@@ -30,7 +30,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  #storageClassName: managed-premium
+  storageClassName: managed-premium-retain
   resources:
     requests:
       storage: 60Gi
