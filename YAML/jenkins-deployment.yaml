@@ -33,7 +33,7 @@ spec:
   #storageClassName: managed-premium
   resources:
     requests:
-      storage: 40Gi
+      storage: 60Gi
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
