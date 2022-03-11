@@ -77,4 +77,4 @@ spec:
           # kubectl logs <pod-name> -n jenkins
           
           # Remote into pod to check that the /var/jenkins_home has been created. 
-          # kubectl exec -it <POD-NAME> -n jenkins-31122 bash
+          # kubectl exec -it <POD-NAME> -n <NAMESPACE> bash
