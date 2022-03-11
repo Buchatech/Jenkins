@@ -30,7 +30,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: azurefile-csi-nfs
+  storageClassName: file-csi-nfs-premium-retain
   resources:
     requests:
       storage: 40Gi
