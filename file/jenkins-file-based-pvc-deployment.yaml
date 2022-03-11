@@ -33,7 +33,7 @@ spec:
   storageClassName: premium-rwo #(premium-rwo = GKE) #azure-file-csi-nfs-premium-retain
   resources:
     requests:
-      storage: 40Gi
+      storage: 10Gi
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
 kind: Deployment
