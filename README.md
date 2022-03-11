@@ -1,6 +1,6 @@
 # Jenkins on Kubernetes Deployment
 <br>
-#Note: Work in progress.
+# Note: Work in progress.
 <br>
 Jenkins deployment for Kubernetes with persistent storage in the YAML folder.
   <br>
