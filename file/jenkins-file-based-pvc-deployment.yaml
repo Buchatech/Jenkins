@@ -30,7 +30,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: file-managed-standard-retain
+  storageClassName: azurefile-csi-nfs
   resources:
     requests:
       storage: 40Gi
@@ -75,3 +75,6 @@ spec:
           # Get Jekins initialadminpassword from the logs after deployment:
           # kubectl get pod -n jenkins
           # kubectl logs <pod-name> -n jenkins
+          
+          # Remote into pod to check that the /var/jenkins_home has been created. 
+          # kubectl exec -it <POD-NAME> -n jenkins-31122 bash
