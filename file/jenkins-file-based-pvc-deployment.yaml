@@ -30,7 +30,7 @@ metadata:
 spec:
   accessModes:
     - ReadWriteMany
-  storageClassName: premium-rwo #(premium-rwo = GKE) #azure-file-csi-nfs-premium-retain
+  storageClassName: standard-rwo #(standard-rwo = GKE) #azure-file-csi-nfs-premium-retain
   resources:
     requests:
       storage: 10Gi
