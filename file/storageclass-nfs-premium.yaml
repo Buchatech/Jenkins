@@ -1,0 +1,7 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: file-csi-nfs-premium-retain
+provisioner: file.csi.azure.com
+parameters:
+  protocol: nfs
