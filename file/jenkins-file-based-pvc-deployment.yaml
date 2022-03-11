@@ -29,7 +29,7 @@ metadata:
     app: jenkins
 spec:
   accessModes:
-    - ReadWriteMany
+    #- ReadWriteMany
   storageClassName: standard-rwo #(standard-rwo = GKE) #azure-file-csi-nfs-premium-retain
   resources:
     requests:
