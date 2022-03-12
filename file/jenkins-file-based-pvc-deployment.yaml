@@ -29,8 +29,8 @@ metadata:
     app: jenkins
 spec:
   accessModes:
-    #- ReadWriteMany
-  storageClassName: standard-rwo #(standard-rwo = GKE) #azure-file-csi-nfs-premium-retain
+    - ReadWriteMany
+  storageClassName: azure-file-csi-nfs-premium-retain #standard-rwo #(standard-rwo = GKE)
   resources:
     requests:
       storage: 10Gi
@@ -40,7 +40,7 @@ kind: Deployment
 metadata:
   name: jenkins
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: jenkins
