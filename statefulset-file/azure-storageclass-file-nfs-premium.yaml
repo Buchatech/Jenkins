@@ -3,5 +3,6 @@ kind: StorageClass
 metadata:
   name: azurefile-csi-nfs
 provisioner: file.csi.azure.com
+reclaimPolicy: Retain
 parameters:
   protocol: nfs
